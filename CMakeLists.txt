@@ -3,6 +3,7 @@ project(poo2_sp8_2020_2)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/${OUTPUT_DEBUG})
+set(CMAKE_CXX_FLAGS -thread)
 
 add_executable(poo2_sp8_2020_2
   main.cpp 
